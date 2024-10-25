@@ -1,0 +1,23 @@
+export class PageHeaderURL {
+    static EndPoints = {
+        page: {
+            getAuthorizedPages: '/platform/page-designer/page/organization/{orgid}?returnUserPage=true&excludeNoActiveVersionPages=true&isEnable=true'
+        }
+    };
+}
+export class RBACINFO {
+    apiHost = '';
+    tokenKey = '';
+    others;
+    orgID;
+    environment;
+}
+export class Environment {
+    mstrUsername;
+    mstrPassword;
+    mstrURL;
+    mstrProjectID;
+    applicationid;
+    priority;
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGFnZS1oZWFkZXItdXJsLmNvbmZpZy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL3BpY3MtY29yZS9wYWdlLWhlYWRlci9zcmMvbGliL3BpY3MtcGFnZS1oZWFkZXIvQGNvcmUvdXJscy9wYWdlLWhlYWRlci11cmwuY29uZmlnLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE1BQU0sT0FBTyxhQUFhO0lBQ2pCLE1BQU0sQ0FBQyxTQUFTLEdBQUc7UUFDeEIsSUFBSSxFQUFFO1lBQ0osa0JBQWtCLEVBQ2hCLHNIQUFzSDtTQUN6SDtLQUNGLENBQUM7O0FBR0osTUFBTSxPQUFPLFFBQVE7SUFDbkIsT0FBTyxHQUFFLEVBQUUsQ0FBQztJQUNaLFFBQVEsR0FBRyxFQUFFLENBQUM7SUFDZCxNQUFNLENBQU87SUFDYixLQUFLLENBQU87SUFDWixXQUFXLENBQWU7Q0FDM0I7QUFDRCxNQUFNLE9BQU8sV0FBVztJQUN0QixZQUFZLENBQVU7SUFDdEIsWUFBWSxDQUFVO0lBQ3RCLE9BQU8sQ0FBVTtJQUNqQixhQUFhLENBQVU7SUFDdkIsYUFBYSxDQUFVO0lBQ3ZCLFFBQVEsQ0FBUztDQUNsQiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBQYWdlSGVhZGVyVVJMIHtcclxuICBwdWJsaWMgc3RhdGljIEVuZFBvaW50cyA9IHtcclxuICAgIHBhZ2U6IHtcclxuICAgICAgZ2V0QXV0aG9yaXplZFBhZ2VzOlxyXG4gICAgICAgICcvcGxhdGZvcm0vcGFnZS1kZXNpZ25lci9wYWdlL29yZ2FuaXphdGlvbi97b3JnaWR9P3JldHVyblVzZXJQYWdlPXRydWUmZXhjbHVkZU5vQWN0aXZlVmVyc2lvblBhZ2VzPXRydWUmaXNFbmFibGU9dHJ1ZSdcclxuICAgIH1cclxuICB9O1xyXG59XHJcblxyXG5leHBvcnQgY2xhc3MgUkJBQ0lORk8ge1xyXG4gIGFwaUhvc3QgPScnO1xyXG4gIHRva2VuS2V5ID0gJyc7XHJcbiAgb3RoZXJzPzogYW55O1xyXG4gIG9yZ0lEPzogYW55O1xyXG4gIGVudmlyb25tZW50PzogRW52aXJvbm1lbnQ7XHJcbn1cclxuZXhwb3J0IGNsYXNzIEVudmlyb25tZW50IHtcclxuICBtc3RyVXNlcm5hbWU/OiBzdHJpbmc7XHJcbiAgbXN0clBhc3N3b3JkPzogc3RyaW5nO1xyXG4gIG1zdHJVUkw/OiBzdHJpbmc7XHJcbiAgbXN0clByb2plY3RJRD86IHN0cmluZztcclxuICBhcHBsaWNhdGlvbmlkPzogc3RyaW5nO1xyXG4gIHByaW9yaXR5Pzogc3RyaW5nXHJcbn0iXX0=

@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of page-header
+ */
+export * from './lib/page-header.service';
+export * from './lib/page-header.component';
+export * from './lib/page-header.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL3BpY3MtY29yZS9wYWdlLWhlYWRlci9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsMkJBQTJCLENBQUM7QUFDMUMsY0FBYyw2QkFBNkIsQ0FBQztBQUM1QyxjQUFjLDBCQUEwQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcclxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIHBhZ2UtaGVhZGVyXHJcbiAqL1xyXG5cclxuZXhwb3J0ICogZnJvbSAnLi9saWIvcGFnZS1oZWFkZXIuc2VydmljZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL3BhZ2UtaGVhZGVyLmNvbXBvbmVudCc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL3BhZ2UtaGVhZGVyLm1vZHVsZSc7XHJcbiJdfQ==
